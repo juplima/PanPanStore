@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | PanPan Store</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <!-- TOPO -->
+    <header class="topo">
+        <h1 class="logo">PanPan Store</h1>
+
+        <nav class="menu">
+            <a href="../index.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="conta.html">Minha Conta</a>
+            <a href="carrinho.html">Carrinho</a>
+        </nav>
+    </header>
+
+    <!-- TÍTULO -->
+    <section class="titulo-pagina">
+        <h2>Checkout</h2>
+        <p>Complete seus dados para finalizar sua compra 🐶💙</p>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <main class="checkout-container">
+        
+        <form class="checkout-form">
+
+            <h3>Dados do Cliente</h3>
+
+            <label>Nome Completo</label>
+            <input type="text" placeholder="Ex: Juliana Silva" required>
+
+            <label>E-mail</label>
+            <input type="email" placeholder="Ex: juliana@gmail.com" required>
+
+            <label>Telefone</label>
+            <input type="text" placeholder="(00) 00000-0000" required>
+
+            <h3>Endereço</h3>
+
+            <label>CEP</label>
+            <input type="text" placeholder="00000-000" required>
+
+            <label>Rua</label>
+            <input type="text" placeholder="Ex: Rua Flores da Primavera" required>
+
+            <label>Número</label>
+            <input type="text" placeholder="123" required>
+
+            <label>Bairro</label>
+            <input type="text" placeholder="Centro" required>
+
+            <label>Cidade</label>
+            <input type="text" placeholder="São Paulo" required>
+
+            <label>Estado</label>
+            <input type="text" placeholder="SP" required>
+
+            <h3>Método de Entrega</h3>
+
+            <select>
+                <option value="padrao">Envio Padrão (5–10 dias) – R$ 20,00</option>
+                <option value="expresso">Envio Expresso (2–4 dias) – R$ 35,00</option>
+            </select>
+
+            <a href="pagamento.html" class="btn-finalizar">Ir para Pagamento</a>
+        </form>
+
+        <!-- RESUMO -->
+        <div class="resumo resumo-checkout">
+            <h3>Resumo do Pedido</h3>
+
+            <p>Itens: <strong>2 produtos</strong></p>
+            <p>Subtotal: <strong>R$ 229,80</strong></p>
+            <p>Frete: <strong>R$ 20,00</strong></p>
+            <p>Total: <strong>R$ 249,80</strong></p>
+        </div>
+
+    </main>
+
+</body>
+</html>

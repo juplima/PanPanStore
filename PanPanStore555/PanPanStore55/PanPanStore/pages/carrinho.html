@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho | PanPan Store</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <!-- TOPO -->
+    <header class="topo">
+        <h1 class="logo">PanPan Store</h1>
+
+        <nav class="menu">
+            <a href="../index.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="conta.html">Minha Conta</a>
+            <a href="carrinho.html">Carrinho</a>
+        </nav>
+    </header>
+
+    <!-- TÍTULO -->
+    <section class="titulo-pagina">
+        <h2>Seu Carrinho</h2>
+        <p>Confira os itens escolhidos para seu pet 💙🐶🐱</p>
+    </section>
+
+    <!-- CARRINHO -->
+    <main class="carrinho-container">
+
+        <!-- ITEM 1 -->
+        <div class="carrinho-item">
+            <img src="https://i.pinimg.com/736x/df/17/12/df1712b846c51746a4340553807f4aef.jpg" alt="Coleira Rosa">
+           
+            <div class="item-info">
+                <h3>Coleira Rosa</h3>
+                <p class="preco-item">R$ 29,90</p>
+
+                <div class="quantidade">
+                    <span>Quantidade:</span>
+                    <input type="number" value="1" min="1">
+                </div>
+            </div>
+
+            <button class="btn-remover">Remover</button>
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="carrinho-item">
+            <img src="https://i.pinimg.com/736x/69/54/1b/69541b6e84b4a73c8bb03a44ca7fb998.jpg" alt="Casinha Conforto">
+
+            <div class="item-info">
+                <h3>Casinha Conforto</h3>
+                <p class="preco-item">R$ 199,90</p>
+
+                <div class="quantidade">
+                    <span>Quantidade:</span>
+                    <input type="number" value="1" min="1">
+                </div>
+            </div>
+
+            <button class="btn-remover">Remover</button>
+        </div>
+
+    </main>
+
+    <!-- RESUMO -->
+    <section class="resumo">
+        <h3>Resumo do Pedido</h3>
+        <p>Subtotal: <strong>R$ 229,80</strong></p>
+        <p>Frete: <strong>R$ 20,00</strong></p>
+        <p>Total: <strong>R$ 249,80</strong></p>
+
+        <a href="checkout.html" class="btn-finalizar">Finalizar Compra</a>
+    </section>
+
+</body>
+</html>

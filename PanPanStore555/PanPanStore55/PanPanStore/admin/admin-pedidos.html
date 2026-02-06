@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Pedidos</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO ADMIN -->
+    <header class="admin-header">
+        <h1>Painel Administrativo</h1>
+
+        <nav>
+            <a href="admin-dashboard.html">Dashboard</a>
+            <a href="admin-produtos.html">Produtos</a>
+            <a href="admin-pedidos.html">Pedidos</a>
+            <a href="../index.html" class="sair-admin">Sair</a>
+        </nav>
+    </header>
+
+    <section class="titulo-pagina">
+        <h2>Pedidos</h2>
+        <p>Acompanhe e altere o status dos pedidos 🧾💙</p>
+    </section>
+
+    <main class="admin-produtos-container">
+
+        <table class="tabela-admin">
+            <tr>
+                <th>ID</th>
+                <th>Cliente</th>
+                <th>Total</th>
+                <th>Status</th>
+                <th>Ações</th>
+            </tr>
+
+            <tr>
+                <td>#PP-45823</td>
+                <td>Juliana Lima</td>
+                <td>R$ 129,90</td>
+                <td><span class="status pendente">Pendente</span></td>
+                <td>
+                    <a href="#" class="btn-editar">Atualizar</a>
+                    <a href="#" class="btn-excluir">Excluir</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>#PP-45824</td>
+                <td>Ana Souza</td>
+                <td>R$ 89,90</td>
+                <td><span class="status pago">Pago</span></td>
+                <td>
+                    <a href="#" class="btn-editar">Atualizar</a>
+                    <a href="#" class="btn-excluir">Excluir</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>#PP-45825</td>
+                <td>Carlos Santos</td>
+                <td>R$ 249,90</td>
+                <td><span class="status enviado">Enviado</span></td>
+                <td>
+                    <a href="#" class="btn-editar">Atualizar</a>
+                    <a href="#" class="btn-excluir">Excluir</a>
+                </td>
+            </tr>
+
+        </table>
+
+    </main>
+
+</body>
+</html>

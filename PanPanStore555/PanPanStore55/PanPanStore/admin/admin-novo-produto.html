@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Novo Produto</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO ADMIN -->
+    <header class="admin-header">
+        <h1>Painel Administrativo</h1>
+
+        <nav>
+            <a href="admin-dashboard.html">Dashboard</a>
+            <a href="admin-produtos.html">Produtos</a>
+            <a href="admin-pedidos.html">Pedidos</a>
+            <a href="../index.html" class="sair-admin">Sair</a>
+        </nav>
+    </header>
+
+    <section class="titulo-pagina">
+        <h2>Novo Produto</h2>
+        <p>Cadastre um novo item na loja 🐶💙</p>
+    </section>
+
+    <main class="novo-produto-container">
+
+        <form class="form-produto">
+
+            <label>Nome do Produto</label>
+            <input type="text" placeholder="Ex: Peitoral Azul" required>
+
+            <label>Preço</label>
+            <input type="text" placeholder="R$ 00,00" required>
+
+            <label>Estoque</label>
+            <input type="number" placeholder="Quantidade" required>
+
+            <label>URL da Imagem</label>
+            <input type="text" placeholder="https://link-da-imagem.com" required>
+
+            <label>Descrição</label>
+            <textarea placeholder="Descreva o produto..." rows="5"></textarea>
+
+            <button class="btn-admin-salvar">Cadastrar Produto</button>
+        </form>
+
+    </main>
+
+</body>
+</html>

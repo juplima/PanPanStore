@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento | PanPan Store</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <!-- TOPO -->
+    <header class="topo">
+        <h1 class="logo">PanPan Store</h1>
+
+        <nav class="menu">
+            <a href="../index.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="conta.html">Minha Conta</a>
+            <a href="carrinho.html">Carrinho</a>
+        </nav>
+    </header>
+
+    <!-- TÍTULO -->
+    <section class="titulo-pagina">
+        <h2>Pagamento</h2>
+        <p>Escolha a forma de pagamento para concluir seu pedido 💙🐶</p>
+    </section>
+
+    <!-- CONTEÚDO -->
+    <main class="pagamento-container">
+
+        <form class="pagamento-form">
+
+            <h3>Método de Pagamento</h3>
+
+            <!-- OPÇÕES -->
+            <div class="opcoes-pagamento">
+                <label>
+                    <input type="radio" name="pagamento" checked>
+                    Cartão de Crédito 💳
+                </label>
+
+                <label>
+                    <input type="radio" name="pagamento">
+                    PIX 🏦
+                </label>
+
+                <label>
+                    <input type="radio" name="pagamento">
+                    Boleto Bancário 📄
+                </label>
+            </div>
+
+            <!-- DADOS DO CARTÃO -->
+            <div class="cartao-area">
+                <h4>Informações do Cartão</h4>
+
+                <label>Número do Cartão</label>
+                <input type="text" placeholder="0000 0000 0000 0000">
+
+                <label>Nome Impresso no Cartão</label>
+                <input type="text" placeholder="EX: JULIANA SILVA">
+
+                <div class="cartao-grid">
+                    <div>
+                        <label>Validade</label>
+                        <input type="text" placeholder="MM/AA">
+                    </div>
+
+                    <div>
+                        <label>CVV</label>
+                        <input type="text" placeholder="000">
+                    </div>
+                </div>
+            </div>
+
+            <!-- PIX -->
+            <div class="pix-area oculto">
+                <h4>Pagamento via PIX</h4>
+                <p>Use a chave PIX:</p>
+
+                <p class="chave-pix"><strong>panpanstore@pix.com.br</strong></p>
+
+                <p>Ou escaneie o QR Code:</p>
+                <img class="qr-pix" src="https://i.imgur.com/NwNwFJX.png" alt="QR Code PIX">
+            </div>
+
+            <!-- BOLETO -->
+            <div class="boleto-area oculto">
+                <h4>Boleto Bancário</h4>
+                <p>
+                    Seu boleto será gerado automaticamente na próxima etapa.  
+                    O pagamento pode ser feito em qualquer banco até o vencimento.
+                </p>
+            </div>
+
+            <a href="agradecimento.html" class="btn-finalizar">Confirmar Pagamento</a>
+
+        </form>
+
+        <!-- RESUMO -->
+        <div class="resumo resumo-checkout">
+            <h3>Resumo do Pedido</h3>
+
+            <p>Subtotal: <strong>R$ 229,80</strong></p>
+            <p>Frete: <strong>R$ 20,00</strong></p>
+            <p>Total: <strong>R$ 249,80</strong></p>
+        </div>
+
+    </main>
+
+</body>
+</html>

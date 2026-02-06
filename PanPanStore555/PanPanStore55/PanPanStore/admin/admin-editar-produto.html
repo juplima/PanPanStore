@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | Editar Produto</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO ADMIN -->
+    <header class="admin-header">
+        <h1>Painel Administrativo</h1>
+
+        <nav>
+            <a href="admin-dashboard.html">Dashboard</a>
+            <a href="admin-produtos.html">Produtos</a>
+            <a href="admin-pedidos.html">Pedidos</a>
+            <a href="../index.html" class="sair-admin">Sair</a>
+        </nav>
+    </header>
+
+    <section class="titulo-pagina">
+        <h2>Editar Produto</h2>
+        <p>Altere as informações do produto selecionado ✏️🐶</p>
+    </section>
+
+    <main class="novo-produto-container">
+
+        <form class="form-produto">
+
+            <label>Nome do Produto</label>
+            <input type="text" value="Coleira Rosa" required>
+
+            <label>Preço</label>
+            <input type="text" value="R$ 29,90" required>
+
+            <label>Estoque</label>
+            <input type="number" value="12" required>
+
+            <label>URL da Imagem</label>
+            <input type="text" value="https://i.imgur.com/eU3FjvK.jpeg" required>
+
+            <label>Descrição</label>
+            <textarea rows="5">Coleira rosa ajustável super confortável.</textarea>
+
+            <button class="btn-admin-salvar">Salvar Alterações</button>
+        </form>
+
+    </main>
+
+</body>
+</html>
